@@ -1,5 +1,10 @@
 # Yii2 Template
 
+## 使用本项目
+```bash
+composer create-project cornyk/yii2-template:dev-master
+```
+
 ## 项目依赖说明
   + PHP最低环境要求7.4
   + PHP 7.4 ~ 8.2 验证可使用
