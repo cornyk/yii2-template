@@ -37,7 +37,6 @@ return [
             'class' => 'yii\log\FileTarget',
             'levels' => ['info'],
             'categories' => ['yii\db\*'],
-            'except' => ['yii\db\Connection*'],
             'logFile' => "@runtime/logs/sql_{$date}.log",
             'logVars' => [],
             'prefix' => function () use ($requestId) {
